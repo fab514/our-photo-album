@@ -1,0 +1,33 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 30px;
+    height: 120px;
+}
+.textheader {
+    position:relative; top:-20px;
+    color:black;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+#menu li{
+    display: inline;
+    position: relative; left: 300px;
+    padding-left: 60px;
+}
+a:link{
+    color:darkcyan;
+    text-decoration: none;
+}
+a:visited{
+    color:plum;
+    text-decoration: none;
+}
+a:hover{
+    color: plum;
+    text-decoration: underline;
+}
