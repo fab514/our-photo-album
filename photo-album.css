@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(252, 250, 249);
+}
 .header {
     padding: 20px;
     text-align: center;
@@ -17,17 +20,21 @@
 #menu li{
     display: inline;
     position: relative; left: 300px;
-    padding-left: 60px;
+    padding-left: 50px;
 }
 a:link{
     color:darkcyan;
     text-decoration: none;
 }
 a:visited{
-    color:plum;
+    color:rgb(201, 101, 201);
     text-decoration: none;
 }
 a:hover{
-    color: plum;
+    color: rgb(201, 101, 201);
     text-decoration: underline;
+}
+a:active{
+    color:cadetblue;
+    text-decoration: none;
 }
