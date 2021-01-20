@@ -39,16 +39,41 @@ a:active{
     text-decoration: none;
 }
 
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    color:#333;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.vertical{
+    height: 900px;
+}
+
+
 .gallery-left{
     width: 50%;
     box-sizing: border-box;
-    padding-right: 10px;
+    position: relative;
+    background-position: center;
+    padding: 5px 10px 5px 200px;
 }
 
 .gallery-right{
     width: 50%;
     float:right;
     box-sizing: border-box;
-    padding-right: 10px;
-    
+    position: relative;
+    background-position: center;
+    padding: 5px 200px 5px 5px;
 }
+
+img:hover{
+    filter: opacity(30%);
+    transform: scale(1);
+}
+
+
